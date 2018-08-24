@@ -47,7 +47,7 @@ app.get('/api/contacts', function(req, res) {
   });
 });
 
-app.post('app/contacts', function(req, res) {
+app.post('/api/contacts', function(req, res) {
   var newContact = req.body;
   newContact.createDate = new Date();
 
